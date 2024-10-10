@@ -127,3 +127,46 @@ nav a:focus {
     width: 100%; 
   }
 }
+#cta-section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 600px; 
+  background-color: rgba(232, 217, 217, 0.3);
+  text-align: center; 
+}
+
+.cta-content h1 {
+  font-size: 3rem; 
+  margin-bottom: 1rem; 
+}
+
+.cta-content p {
+  margin-bottom: 2rem; 
+  font-size: 1.25rem; 
+  max-width: 800px; 
+}
+
+.cta-buttons {
+  display: flex; 
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px; 
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(73, 61, 61); 
+}
+
+.see-plans {
+  background-color: #FB3B49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2); 
+}
+
+.join-free {
+  background-color: white; 
+  box-shadow: 8px 8px 0 rgba(59, 73, 251, 0.2);
+}

@@ -202,3 +202,66 @@ nav a:focus {
   margin-left: auto;
   margin-right: auto;
 }
+
+.box-container {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+}
+
+.box {
+  flex: 1; 
+  margin: 0 10px; 
+  padding: 20px; 
+  background-color: transparent; 
+  border: transparent; 
+  text-align: center; 
+}
+
+.box-image {
+  max-width: 20%; 
+  height: auto; 
+
+}
+
+.button-container {
+  display: flex; 
+  justify-content: center;
+  margin-top: 20px; 
+  text-align: center;
+}
+
+.large-button {
+  display: inline-block; 
+  padding: 10px 20px;
+  background-color: black; 
+  color: white; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  width: 200px;
+  font-size: 1rem; 
+}
+
+.large-button:hover {
+  background-color: #b00d18; 
+}
+
+
+.box-heading {
+  color: #ED1C24; 
+}
+
+.btn.create-org {
+  padding: 10px 20px; 
+  background-color: #ED1C24; 
+  color: white; 
+  border-radius: 5px;
+  text-decoration: none; 
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, .2); 
+  
+}
+
+
+.btn.create-org:hover {
+  background-color: #b00d18; 
+}
